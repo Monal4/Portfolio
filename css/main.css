@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+}
+
+#landing{
+    height: 100vh;
+    background-image: url('C:/Users/rupap/OneDrive/Desktop/portfolio/land.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#partition{
+    height: 250px;
+    margin: 0;
+    background-image: url('C:/Users/rupap/OneDrive/Desktop/portfolio/land.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#mainText{
+    margin-top: 30vh;
+}
+
+#experience{
+    margin-top: 50px;
+    margin: 0;
+}
+
+#intro{
+    margin-top: 50px;
+}
+
+#projects{
+    background-color: rgb(61,61,61);
+}
+
+#p1{
+    height: 350px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+  }
+
+#nav {
+    background-color: black;
+    border: none;
+    border-style: none;
+}

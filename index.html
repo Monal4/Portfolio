@@ -1,0 +1,199 @@
+<html>
+
+    <head>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<!--         
+        <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+        <!-- Main stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body>
+    
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+                
+            <nav class="black">
+                <div class="container">
+                    <div="nav-wrapper">
+                        <a href="#"  class="brand-logo">Monal Rupapara</a>
+                        <ul class="right hide-on-med-and-down" id="navList">
+                            <li><a href="#landing">Home</a></li>
+                            <li><a href="#intro">About Me</a></li>
+                            <li><a href="#experience">Work Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+
+        <!-- Landing Screen -->
+        <div class="section" id="landing">
+                <h5 id="mainText" class="center">My Name Is</h5>
+                <h1 style="color: white;"  class="center">
+                    MONAL <b>RUPAPARA</b>
+                </h1>
+        </div>
+
+        <!-- Intro -->
+        <div id="intro" style="background-color: #0d0b0b;margin: 0; padding-top: 50px;" class="section" >
+            <div class="container">
+                <div class="row center">
+                    <div class="col s12 m2 l2">
+                        <img class="responsive-img" src="C:\Users\rupap\OneDrive\Desktop\portfolio\portfolio.jpg">
+                    </div>
+                    <div class="col s12 m10 offset-l1 l8 ">
+                        <h2 class="center header"> ABOUT ME </h2>
+                        <p style="font-size: large;">
+                            I am Monal Rupapara currently pursuing Master's in Computer Science From University Of Massachusetts Boston since 
+                            Fall 2018. I am a Full-Stack Web Developer and have made many projects using different frameworks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spaceing -->
+        <div class="section" id="partition">
+        </div>
+
+        <!-- Work Experience -->
+        <div id="experience" style="background-color: #0d0b0b;margin: 0; padding-top: 40px;" class="section">
+            <div class="container">
+                <h3 class="header text_b center"> WORK EXPERIENCE </h3>
+                <div class="row center">
+                    <div class="col s12 m12 l3">
+                        <img class="responsive-img" src="C:\Users\rupap\OneDrive\Desktop\portfolio\oub.png">
+                        <br/>
+                        <b>IT INTERN</b>
+                        <br/>
+                        <b>October 2019 - January 2020</b>
+                    </div>
+                    <div class="col s12 m12 offset-l1 l8 ">
+                        
+                        <p style="font-size: medium;text-align: left;">
+                             <b style="color: white;">Branch Locations WebPage:</b>
+                                The web page contains all the branch locations including ATM's that accepts deposits and the ones that does not accept deposit.
+                                HTML, CSS, JavaScript, MoneyPass API and Google Maps JavaScript API are the tools that were used for building this webpage.
+                                <a href="https://www.oneunited.com/about-us/branch-atm-locations/"> Link to webpage </a>
+                            <br/>
+                                The Map is first set to a specific zoom with user location coordinates, the money pass API is then called that returns
+                                JSON containing 50 ATM's. Due to this restriction the map is further divided into four zones and money pass api is called recursively
+                                with 50 atms with respect to the center of each zone. 
+                        </p>
+                        
+                        <p style="font-size: medium;text-align: left;">
+                            <b style="color: white;">SalesForce:</b>
+                                The controller using APEX is created for controlling the incoming Fax to convert it into a ticket in salesforce.
+                                Inbound Email class of APEX was used in building Fax to Ticket class.
+                                Visual Force Page was created for rendering the Fax attachement.
+                                Test Classes for testing fax with multiple attachements was built before moving everything to production.
+                                Worked with SalesForce DataLoader.  
+                        </p>
+
+                        <p style="font-size: medium;text-align: left;">
+                            <b style="color: white;">SQL Queries:</b>
+                             Due to Migration of intranet server the SQL queries were re-written to it's latest form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spaceing -->
+        <div class="section" id="partition">
+        </div>
+
+
+        <!--Projects-->
+        <div class="section" style="background-color: #0d0b0b; padding-top: 40px;" id="projects">
+            <div class="container">
+                <h3 class="header text_b center">My Projects </h3>
+                <div class="row" id="row1">
+                    <div class="flexbox">
+                        <div class="col s12 m4 l4 center-align" style="padding: 0px; margin-left: 100px;"> 
+                            <div class="card  black">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="C:\Users\rupap\OneDrive\Desktop\portfolio\springboot.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator purple-text text-lighten-5">Online Music Store <i class="mdi-navigation-more-vert right"></i></span>
+                                    <p><a class="purple-text text-lighten-5" href="https://github.com/Monal4/Online-Music-Store-using-Spring-Boot-and-Hibernate.git">
+                                        Project Files</a></p>
+                                </div>
+                                <div class="card-reveal  black">
+                                    <span class="card-title purple-text text-lighten-5">Project Title <i class="mdi-navigation-close right"></i></span>
+                                    <p>Online Music Store is a Spring-Boot Web Application.</p>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="col s12 m4 l4 center-align" style="padding: 0px; margin-right: 100px;">
+                            <div class="card  black">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="C:\Users\rupap\OneDrive\Desktop\portfolio\node.js.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator purple-text text-lighten-5">Surveyfy-2.0<i class="mdi-navigation-more-vert right"></i></span>
+                                    <p><a class="purple-text text-lighten-5" href="https://github.com/Monal4/MeanStack-WebApp.git">Project Files</a></p>
+                                </div>
+                                <div class="card-reveal  black">
+                                    <span class="card-title purple-text text-lighten-5">Project Title <i class="mdi-navigation-close right"></i></span>
+                                    <p>Surveyfy-2.0 is a Mean-Stack Web Application</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    
+        <!-- Skill Sets -->
+
+        <div class="section" style="background-color: #101010;" id="skillsets">
+            <div class="container">
+                <div class="row">
+                    <h1 class="center white-text">
+                        My Skills
+                    </h1>
+                </div>
+                <div class="row center">
+                    <div class="col s12 m3 l3">
+                        <img class="responsive-img" src="C:\Users\rupap\OneDrive\Desktop\portfolio\java.png">
+                    </div>
+                    <div class="col s12 m3 l3">
+                        <img class="responsive-img" src="C:\Users\rupap\OneDrive\Desktop\portfolio\node.js.png">
+                    </div>
+                    <div class="col s12 m3 l3">
+                        <img class="responsive-img" src="C:\Users\rupap\OneDrive\Desktop\portfolio\javascript.png">
+                    </div>
+                    <div class="col s12 m3 l3">
+                        <img class="responsive-img" src="C:\Users\rupap\OneDrive\Desktop\portfolio\springboot.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add FIXED ACTION BUTTON -->
+
+        <div class="fixed-action-btn vertical">
+            <a class="btn-floating btn-large  blue-grey darken-4">
+                <i class="fa fa-globe"></i>
+            </a>
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/rupapara.monal" class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="btn-floating grey darken-3" href="https://github.com/Monal4"> <i class="fa fa-github"></i></a></li>
+                <li><a target="_blank" href="www.linkedin.com/in/monal-rupapara/" class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </body>
+</html>
