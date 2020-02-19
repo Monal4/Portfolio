@@ -5,7 +5,7 @@ body{
 
 #landing{
     height: 100vh;
-    background-image: url('../img/land.png');
+    background-image: url('..\img\land.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body{
 #partition{
     height: 250px;
     margin: 0;
-    background-image: url('../img/land.png');
+    background-image: url('..\img\land.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
