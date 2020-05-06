@@ -78,20 +78,19 @@
                         <p style="font-size: medium;text-align: left;">
                              <b style="color: white;">Branch Locations WebPage:</b>
                                 The web page contains all the branch locations including ATM's that accepts deposits and the ones that does not accept deposit.
-                                HTML, CSS, JavaScript, MoneyPass API and Google Maps JavaScript API are the tools that were used for building this webpage.
+                                HTML, CSS, JavaScript, Third Party ATM API and Google Maps JavaScript API are the tools.
                                 <a href="https://www.oneunited.com/about-us/branch-atm-locations/"> Link to webpage </a>
                             <br/>
-                                The Map is first set to a specific zoom with user location coordinates, the money pass API is then called that returns
-                                JSON containing 50 ATM's. Due to this restriction the map is further divided into four zones and money pass api is called recursively
-                                with 50 atms with respect to the center of each zone. 
+                                The map was divided into quadrants due to ATM api restrictions that allowed only limited ATM's per call and then 
+                                each quadrant now acts as a seperate part with extra api call.
+                                The api calls were Later reduced. 
                         </p>
                         
                         <p style="font-size: medium;text-align: left;">
                             <b style="color: white;">SalesForce:</b>
-                                The controller using APEX is created for controlling the incoming Fax to convert it into a ticket in salesforce.
-                                Inbound Email class of APEX was used in building Fax to Ticket class.
+                                The controller built on APEX is created for controlling the incoming Fax to convert it into a ticket in salesforce used for administration purposes.
+                                Functions of salesforce Inbound Email class of APEX were used in building Fax to Ticket and test cases to test the controller and class.
                                 Visual Force Page was created for rendering the Fax attachement.
-                                Test Classes for testing fax with multiple attachements was built before moving everything to production.
                                 Worked with SalesForce DataLoader.  
                         </p>
 
