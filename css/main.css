@@ -13,6 +13,16 @@ body{
     z-index: -1;
 }
 
+#landingPhone{
+    height: 100vh;
+    background-image: url('../img/sSize1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
 #partition{
     height: 250px;
     margin: 0;
